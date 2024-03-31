@@ -16,5 +16,10 @@ Requirements:
 
 
 Use:
-  python3 
+  python3 extract.py
+
+  The application will open a dialog, choose our AB file and press Convert File
+
+  ![alt text](http://url/to/img.png)
+  
   
