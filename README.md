@@ -1,7 +1,7 @@
 ## android_backup_extractor
 A python script to convert a Android backup to to a TAR file.
 
-I tried som of the JAR files out there and they did not work. But the AndroidBackup (abd backup output) file seems straightforward.
+I tried some of the JAR files out there and they did not work. But the AndroidBackup (abd backup output) file seems straightforward.
 
 
 The first 24 bytes contain a header, the rest if the file is compressed with ZLIB. I did not find a commandline tool to decompress ZLIB.
