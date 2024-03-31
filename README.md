@@ -1,4 +1,4 @@
-# android_backup_extractor
+## android_backup_extractor
 A python script to convert a Android backup to to a TAR file.
 
 I tried som of the JAR files out there and they did not work. But the AndroidBackup (abd backup output) file seems straightforward.
@@ -10,16 +10,17 @@ So I wrote a small Python script that reads the file, cheks the header, runs the
 
 I like GUI's so I used PySimpleGUI
 
-Requirements:
-  ZLIB
-  PySimpleGUI
+# Requirements:
+  - ZLIB (not evensure if it is part of standard Python3)
+  - PySimpleGUI
 
 
-Use:
+# Use:
   python3 extract.py
 
   The application will open a dialog, choose our AB file and press Convert File
 
-  ![image of dialog]([http://url/to/img.png](https://github.com/johantenhouten/android_backup_extractor/blob/main/picture.jpg))
+  ![image of dialog](https://github.com/johantenhouten/android_backup_extractor/blob/main/picture.jpg)
   
-  
+# Tested
+I tested it on Windows 11, with Python 3.11 and a AB file I created with "adb backup -all"
