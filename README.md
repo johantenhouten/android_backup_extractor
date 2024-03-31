@@ -20,6 +20,6 @@ Use:
 
   The application will open a dialog, choose our AB file and press Convert File
 
-  ![alt text](http://url/to/img.png)
+  ![image of dialog]([http://url/to/img.png](https://github.com/johantenhouten/android_backup_extractor/blob/main/picture.jpg))
   
   
