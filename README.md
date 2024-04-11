@@ -1,5 +1,5 @@
 ## android_backup_extractor
-A python script to convert a Android backup to to a TAR file.
+A python script to convert a Android backup to to a TAR file. At this moment the tool does not support password encrypted backups.
 
 I tried some of the JAR files out there and they did not work. But the AndroidBackup (abd backup output) file seems straightforward.
 
